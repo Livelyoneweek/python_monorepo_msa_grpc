@@ -1,5 +1,10 @@
 Metadata-Version: 2.4
 Name: math_service
-Version: 0.1.0
-Summary: Simple math utilities
+Version: 0.2.0
+Summary: Math gRPC service
 Requires-Python: >=3.11
+Requires-Dist: grpcio>=1.66
+Requires-Dist: grpcio-tools>=1.76.0
+Requires-Dist: protobuf>=5.27
+Provides-Extra: dev
+Requires-Dist: grpcio-tools>=1.66; extra == "dev"

@@ -6,9 +6,10 @@ requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.115",
     "uvicorn[standard]>=0.30",
-    "math_service",  # 워크스페이스 내 로컬 의존성
+    "grpcio>=1.66",
+    "shared_protos",
 ]
 
-# uv에게 'math_service'는 워크스페이스에서 가져오라고 지정
+# uv에게 'shared_protos'는 워크스페이스에서 가져오라고 지정
 [tool.uv.sources]
-math_service = { workspace = true }
+shared_protos  = { workspace = true }

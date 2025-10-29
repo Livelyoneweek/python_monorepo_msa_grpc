@@ -1,0 +1,10 @@
+[project]
+name = "shared_protos"
+version = "0.1.0"
+description = "Shared gRPC proto definitions"
+requires-python = ">=3.11"
+dependencies = [
+    "protobuf>=5.27",
+    "grpcio>=1.66",
+    "grpcio-tools>=1.66"
+]

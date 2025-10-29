@@ -1,0 +1,9 @@
+pyproject.toml
+shared_protos/__init__.py
+shared_protos/math_pb2.py
+shared_protos/math_pb2_grpc.py
+shared_protos.egg-info/PKG-INFO
+shared_protos.egg-info/SOURCES.txt
+shared_protos.egg-info/dependency_links.txt
+shared_protos.egg-info/requires.txt
+shared_protos.egg-info/top_level.txt

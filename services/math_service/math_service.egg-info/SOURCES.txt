@@ -1,7 +1,12 @@
 pyproject.toml
 math_service/__init__.py
 math_service/core.py
+math_service/server.py
 math_service.egg-info/PKG-INFO
 math_service.egg-info/SOURCES.txt
 math_service.egg-info/dependency_links.txt
+math_service.egg-info/requires.txt
 math_service.egg-info/top_level.txt
+math_service/protos/__init__.py
+math_service/protos/math_pb2.py
+math_service/protos/math_pb2_grpc.py

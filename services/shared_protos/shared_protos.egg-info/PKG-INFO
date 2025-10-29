@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: shared_protos
+Version: 0.1.0
+Summary: Shared gRPC proto definitions
+Requires-Python: >=3.11
+Requires-Dist: protobuf>=5.27
+Requires-Dist: grpcio>=1.66
+Requires-Dist: grpcio-tools>=1.66
