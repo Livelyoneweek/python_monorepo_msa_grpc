@@ -18,17 +18,12 @@ async def lifespan(app: FastAPI):
         # 앱 종료 시 정리
         await app.state.grpc_channel.close()
 
-# app = FastAPI(title="API Service")
 app = FastAPI(title="API Service (calls gRPC)", lifespan=lifespan)
-
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
 
-# @app.get("/add")
-# def add_route(a: int, b: int):
-#     return {"result": add(a, b)}
 
 @app.get("/add")
 async def add_route(a: int, b: int):
