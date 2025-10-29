@@ -1,0 +1,7 @@
+pyproject.toml
+math_service/__init__.py
+math_service/core.py
+math_service.egg-info/PKG-INFO
+math_service.egg-info/SOURCES.txt
+math_service.egg-info/dependency_links.txt
+math_service.egg-info/top_level.txt

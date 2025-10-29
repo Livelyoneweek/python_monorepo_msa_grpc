@@ -1,0 +1,14 @@
+[project]
+name = "api_service"
+version = "0.1.0"
+description = "FastAPI gateway"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "math_service",  # 워크스페이스 내 로컬 의존성
+]
+
+# uv에게 'math_service'는 워크스페이스에서 가져오라고 지정
+[tool.uv.sources]
+math_service = { workspace = true }
